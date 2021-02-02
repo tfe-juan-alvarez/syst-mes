@@ -1,0 +1,59 @@
+<!DOCTYPE HTML> 
+<html>
+  <head>
+    <title>ESP8266 websever</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+      a:link, a:visited { background-color: #f44336; color: white;padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block;}
+      a:hover, a:active { background-color:red; }
+      h1 {text-align:center;text-decoration:underline}
+      h4 {font-weight:normal;font-style:italic}
+      ul {font-family:tahoma;font-weight:normal;font-style:italic;font-size:14px;line-height:20px}
+      hr {border: 3px solid green;}
+      p {font-family:tahoma}
+      span {font-family:tahoma;line-height:35px}
+      div {text-align:center}
+      button {font-size:20px}
+      img {width: 20%; height: 20%;}
+    </style>
+  </head>
+  <body>
+    <h1> ESP8266 Web Server </h1>
+    <h4> Par Juan Alvarez et Olivier Grabenweger</h2> <img src="Onizuka.jpg" alt="GTO" align="center" border=3>
+    <h2>Ennoncé :</h2>
+    <ul>
+      <li>Commander un appareil à distance via une page web
+      <li> Afficher l'état d'un bouton 
+      <li> Afficher en temps réel les mesures d'un capteur
+    </ul>
+    <br>
+    <fieldset>
+      <legend style = "text-align:center;font-size:25px">Data display</legend>
+      <span style="color:blue;size:20;text-align: center;"> Temperature: </span><span id="capteur_t";style="color:green;size:20;"></span>
+      <br>
+      <span style="color:blue;size:20;text-align: center;"> Humidity: </span><span id="capteur_h";style="color:green;size:20;"></span>
+      <br>
+      <span style="color:green;size:20;text-align: center;"> Button State: </span><span id="state_b";style="color:green;size:20;"></span>
+      <br>
+      <span style="color:green;size:20;text-align: center;"> The button has been pressed : </span>  <span id="count";style="color:green;size:20;"></span>  <span style="color:green;size:20;">_times</span>
+      <br>
+      <span style="text-align: center;"> LED status : </span>          <span id="state_LED"></span>
+    </fieldset>
+    <br>
+    <p style = "text-align:center"> Switch LED state </p>
+    <hr>
+    <br>
+    <div>
+      <button onclick="ON()">LED ON</button>
+      <p2 style="color:white;"> ceci est du texte </p2>
+      <button onclick="OFF()">LED OFF</button>
+    </div>
+    <br>
+    <hr style = "border: 1px solid green;">
+    <br>
+    <p style = "text-align:center"> Data Requests </p>
+    <hr>
+  </body>
+</html>

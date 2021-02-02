@@ -1,0 +1,21 @@
+*****Read me *****
+
+Quelques informations pratiques sur le contenu du rapport : 
+- chaque dossier contient les codes sources ainsi que le rapport format WORD et PDF
+- Le TP CAN a été fourni avec tous les fichiers pour que le projet soit lançable depuis MicroC
+
+Les ressources qui on été communiquées sont celles que nous trouvions pertinentes mais nous restons disponibles dans 
+le cas où vous souhaiteriez plus de ressources. La composition NodeRed a été exportée sous format JSON 
+et est disponible dans le rapport mais si elle n'est pas exploitable, il y a la possibilité de partager le flux. 
+
+Remarque générale : nous avons essayé de documenter nos sources dans la mesure du possible mais pour certains TP, nous 
+n'avons pas pu retrouver tous les documents qui avaient été consultés.
+
+J'espère que vous prendrez autant de plaisir à le parcourir que nous avons pris à le réaliser, 
+
+Bonne lecture, 
+
+
+JUAN et OLIVIER 
+
+**** fin ****

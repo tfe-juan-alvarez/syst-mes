@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "TP5",
+			"path": "..\\..\\..\\..\\PlatformIO\\Projects\\TP5"
+		},
+		{
+			"name": "TP7_freeRTOS_ESP32",
+			"path": "."
+		},
+		{
+			"name": "GoogleSheet",
+			"path": "..\\TP3\\GoogleSheet"
+		},
+		{
+			"name": "SE_TP2_THEEND",
+			"path": "..\\..\\..\\..\\PlatformIO\\Projects\\SE_TP2_THEEND"
+		},
+		{
+			"name": "TP2_async",
+			"path": "..\\..\\..\\..\\..\\Desktop\\TP2_async"
+		},
+		{
+			"name": "Blynk_2",
+			"path": "..\\..\\..\\..\\..\\OneDrive\\Documents\\PlatformIO\\Projects\\Blynk_2"
+		}
+	],
+	"settings": {}
+}
