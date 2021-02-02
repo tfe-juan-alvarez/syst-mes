@@ -1,7 +1,6 @@
 
 //
 // Created by Juan & Oli on 5/14/2020.
-// on  vérifie si ça marche
 //
 
 unsigned char Can_Init_Flags, Can_Send_Flags, Can_Rcv_Flags; // can flags
